@@ -11,6 +11,10 @@ This package has a functions module.
 This repo is currently under development. To do a developmental install, download this repo and type
 'pip install -e .'
 
+This package requires the following packages:
+     -numpy
+     -matplot 
+
 ### Copyright
 
 Copyright (c) 2021, Steven Ayoub 
