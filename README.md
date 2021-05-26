@@ -9,11 +9,13 @@ A Python package for analyzing and visulazing molecular files. For molssi worksh
 This package has a functions module.
 
 This repo is currently under development. To do a developmental install, download this repo and type
-'pip install -e .'
+```
+pip install -e .
+```
 
 This package requires the following packages:
-     -numpy
-     -matplot 
+     - numpy
+     - matplot 
 
 Features should be developed on branches. To create and switch to a branch, use command
 'git checkout -b new_branch_name'
