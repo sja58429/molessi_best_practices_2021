@@ -112,3 +112,6 @@ ENV/
 *.out
 *.in 
 
+#ignore runner file 
+runner.py 
+
