@@ -1,18 +1,12 @@
-
-
 """
 functions.py
 A Python package for analyzing and visulazing molecular files. For molssi workshop.
 
 Handles the primary functions
 """
-import os 
-import numpy as np 
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 def zen(with_attribution=True):
-    quote = '''Beautiful is better than ugly.
+    quote = """Beautiful is better than ugly.
     Explicit is better than implicit.
     Simple is better than complex.
     Complex is better than complicated.
@@ -30,9 +24,10 @@ def zen(with_attribution=True):
     Although never is often better than *right* now.
     If the implementation is hard to explain, it's a bad idea.
     If the implementation is easy to explain, it may be a good idea.
-    Namespaces are one honking great idea -- let's do more of those!'''
+    Namespaces are one honking great idea -- let's do more of those!"""
 
     return quote
+
 
 def canvas(with_attribution=True):
     """
@@ -60,4 +55,3 @@ def canvas(with_attribution=True):
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
-
